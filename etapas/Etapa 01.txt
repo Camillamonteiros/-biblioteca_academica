@@ -1,0 +1,34 @@
+ETAPA 1: Modelagem de Perfis de Alunos com Herança 
+Objetivo: Nesta primeira etapa, você irá modelar três tipos de aluno utilizando herança multinível em Java, 
+com foco na organização e reutilização de atributos e comportamentos. 
+O que deve ser feito: 
+    1. Crie uma classe base chamada Aluno, contendo: 
+        a. nome (String) 
+        b. matrícula (String) 
+        c. método solicitarLivro(String titulo) que exiba uma mensagem genérica indicando que o aluno solicitou 
+        um livro. 
+    2. Crie as classes: 
+        a. AlunoGraduacao: representa alunos do ensino superior. 
+            i. Atributos adicionais: 
+            a. curso (String): nome do curso que o aluno está matriculado (ex: Engenharia, Direito). 
+            b. semestre (int): semestre atual do aluno. 
+        b. AlunoEnsinoMedio: representa alunos do ensino médio. 
+            i. Atributos adicionais: 
+            a. serie (int): série (ano) atual do aluno (ex: 1, 2 ou 3) 
+            b. turno (String): período em que estuda (ex: “Manhã”, “Tarde”, “Noite”) 
+    3. Crie outras duas classes: 
+        a. AlunoEngenharia: ensino superior 
+        b. AlunoDireito: ensino superior 
+            i. Alunos desses cursos tem prioridade na solicitação em materiais técnicos e em obras 
+            jurídicas, respectivamente. 
+    4. O método solicitarLivro(String titulo) deverá ser sobrescrito nas subclasses apropriadas, exibindo uma 
+        mensagem personalizada. 
+        a. Exemplo: 
+            i. “Aluno de Engenharia solicitou o livro: [título]. Tem prioridade em materiais técnicos.” 
+            ii. “Aluno do Ensino Médio solicitou o livro: [título].” 
+            iii. “Aluno de Graduação  solicitou o livro: [título].” 
+    5. Crie uma classe principal com o método main. Nele, instancie objetos alunos (AlunoEnsinoMedio, 
+AlunoEngenharia, AlunoDireito, AlunoGraduacao) e invoque o método solicitarLivro de cada um desses 
+objetos.
+
+
