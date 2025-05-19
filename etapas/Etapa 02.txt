@@ -1,0 +1,28 @@
+ETAPA 2 : Polimorfismo na Avaliação de Itens da Biblioteca
+Objetivo: Nesta etapa, você deverá aplicar o conceito de polimorfismo em Java, permitindo que diferentes tipos de itens da
+biblioteca (livros) possam ser avaliados por alunos de maneiras
+distintas, através do uso de sobrescrita de métodos e referências
+polimórficas.
+O que deve ser feito:
+    1. Crie uma classe base chamada ItemBiblioteca, contendo:
+        a. titulo (String)
+        b. codigo(String)
+        c. Método avaliar( ) que exiba uma mensagem genérica “Item
+        avaliado.”.
+    2. Crie as classes:
+        a. Livro
+        b. Revista
+        i. Cada uma dessas classes deve sobrescrever o  
+        método avaliar( ) com mensagens diferentes, por
+        exemplo:
+            1. "Livro [título] avaliado com sucesso. Obrigado
+            pela contribuição!"
+            2. "Revista [título] recebeu sua avaliação.
+            Obrigado!"
+    3. Implemente um método avaliarItem(ItemBiblioteca item) na classe Aluno que receba como parâmetro um ItemBiblioteca e
+    chame o método avaliar()
+    4. Crie uma classe principal com o método main. Nele, instancie
+    objetos alunos (AlunoEnsinoMedio, AlunoGraduacao,
+    AlunoEngenharia, AlunoDireito) e de itens (Livro, Revista) e
+    demonstre o uso do polimorfismo chamando avaliarItem(...)
+    com diferentes tipos de item (Livro, Revista).

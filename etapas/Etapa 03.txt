@@ -1,0 +1,22 @@
+ETAPA 3 : Uso de Métodos da Classe Object
+Objetivo: Nesta etapa, você deverá aprofundar a compreensão dos
+métodos herdados da classe Object, com foco na redefinição de
+equals() e toString(), para permitir que objetos possam ser
+comparados e exibidos de maneira mais adequada e legível.
+O que deve ser feito:
+    1. Sobrescreva o método toString() nas seguintes classes:
+        a. Aluno
+        b. Livro
+        c. Revista
+            i. O método deve retornar uma descrição clara do
+            objeto.
+    2. Implemente o método equals() na classe Aluno de modo que:
+        a. Dois objetos Aluno sejam considerados iguais se tiverem a
+        mesma matrícula.
+    3. Em uma classe de teste:
+        a. Instancie alguns objetos que representem alunos
+            i. Com o mesmo estado (dados)
+            ii. Com estados (dados) distintos
+        b. Use equals() para compará-los.
+        c. Exiba a representação textual dos objetos (a saída do
+        método toString())

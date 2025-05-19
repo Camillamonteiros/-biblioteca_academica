@@ -4,7 +4,7 @@ package model;
 // Criando uma classe chamada AlunoGraduacao que herda da classe Aluno
 // Herda os atributos nome e matrícula, e o método solicitarLivro
 // Adiciona dois atributos específicos: curso e semestre
-public class Alunograduacao extends Aluno {
+public class AlunoGraduacao extends Aluno {
 
     // Atributos específicos da graduação
     protected String curso;
@@ -12,7 +12,7 @@ public class Alunograduacao extends Aluno {
 
     // Construtor da classe AlunoGraduacao
     // Usa super(nome, matricula) para aproveitar o construtor da classe pai (Aluno)
-    public Alunograduacao(String nome, String matricula, String curso, int semestre) {
+    public AlunoGraduacao(String nome, String matricula, String curso, int semestre) {
         super(nome, matricula); // Chama o construtor da superclasse (Aluno)
         this.curso = curso;     // Inicializa o atributo curso
         this.semestre = semestre; // Inicializa o atributo semestre
