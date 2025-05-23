@@ -17,4 +17,10 @@ public class Aluno {
     public void solicitarLivro(String titulo) {
         System.out.println("Aluno solicitou o livro: " + titulo);
     }
+
+    public void avaliarItem(ItemBiblioteca item) {
+        System.out.print(nome + " avaliando: ");
+        item.avaliar();  
+    }
+
 }
