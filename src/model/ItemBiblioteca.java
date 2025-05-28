@@ -16,4 +16,8 @@ public class ItemBiblioteca {
     public void  avaliar (){
         System.out.println("Item avaliado");
     }
+    @Override
+    public String toString() {
+        return "ItemBiblioteca{" + "titulo='" + titulo + "', codigo='" + codigo + "'}";
+    }
 }

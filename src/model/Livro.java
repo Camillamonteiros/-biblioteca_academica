@@ -13,4 +13,11 @@ public class Livro extends  ItemBiblioteca{
     public void avaliar() {
         System.out.println("Livro \"" + titulo + "\" avaliado com sucesso. Obrigado pela contribuição!");
     }
+
+    //sobrescreve o metodo Tostring para uma declaração clara
+    @Override
+    public String toString() {
+        return "Livro{" + "titulo='" + titulo + "', codigo='" + codigo + "'}";
+    }
+
 }

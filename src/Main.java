@@ -1,3 +1,5 @@
+// Main.java – Demonstração das Etapas 1 e 2: Herança e Polimorfismo
+
 import model.*;
 
 public class Main {

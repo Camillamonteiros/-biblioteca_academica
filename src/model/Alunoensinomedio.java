@@ -23,5 +23,9 @@ public class AlunoEnsinoMedio extends Aluno {
     public void solicitarLivro(String titulo) {
         System.out.println("Aluno de Ensino Médio solicitou o livro: " + titulo);
     }
+    @Override
+    public String toString() {
+        return "AlunoEnsinoMedio{" + "nome='" + nome + "', serie=" + serie + ", turno='" + turno + "'}";
+    }
 }
 
