@@ -12,6 +12,7 @@
 Este projeto é um sistema de simulação de uma Biblioteca Acadêmica, desenvolvido no contexto da disciplina de Programação Orientada a Objetos em Java (Estácio de Sá). O objetivo principal foi aplicar conceitos fundamentais de POO como herança, polimorfismo, sobrescrita de métodos, e a utilização dos métodos da classe Object.
 
 ✅ Etapas Implementadas
+
 🧬 Etapa 1: Herança e Sobrescrita
 Criação da superclasse Aluno com atributos comuns (nome, matrícula) e métodos básicos.
 
